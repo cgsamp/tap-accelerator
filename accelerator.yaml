@@ -19,6 +19,21 @@ accelerator:
           value: "11"
         - text: 17 (Production in Oct 2022, QA only for now)
           value: "17"
+    - name: databaseType
+      label: Database Type
+      inputType: select
+      display: true
+      dataType: boolean
+      defaultValue: "None"
+      choices:
+        - text: Stateless app
+          value: None
+        - text: BigQuery on GCP
+          value: bigquery
+        - text: MSSQL on EDC
+          value: mssql
+        - text: Postgres on Kubernetes
+          value: postgres
 
 engine:
   merge:
