@@ -1,10 +1,10 @@
 accelerator:
-  displayName: F-150 Lightning
-  description: Build apps to be deployed in Ford's flagship electric truck.
-  iconUrl: https://raw.githubusercontent.com/cgsamp/tap-accelerator/main/img/f150lightning.jpg
+  displayName: ACME Inc. Spring Web Application
+  description: An example starting template for offical spring web application at ACME Inc.
+  iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-cloud.png
   tags:
-    - Android Automotive OS
-    - Spring API
+    - Java
+    - Spring
     - Web
     - JPA
   options:
@@ -19,6 +19,24 @@ accelerator:
           value: "11"
         - text: 17 (Production in Oct 2022, QA only for now)
           value: "17"
+    - name: noDB
+      label: Stateless (Don't need a database)
+      inputType: toggle
+      display: false
+      dataType: boolean
+      defaultValue: false
+    - name: sonar
+      label: use sonarqube
+      inputType: toggle
+      display: true
+      dataType: boolean
+      defaultValue: false
+    - name: projectKey
+      label: Sonar project key
+      dataType: string
+      defaultValue: ''
+      dependsOn:
+        name: sonar
 
 engine:
   merge:
