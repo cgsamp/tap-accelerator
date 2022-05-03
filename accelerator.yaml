@@ -1,7 +1,7 @@
 accelerator:
   displayName: F150 Lightning Toolkit
   description: Create and deploy in-vehicle infotainment for the F150 Lightning
-  iconUrl: https://raw.githubusercontent.com/cgsamp/tap-accelerator/main/img/f150lightning.jpg
+  iconUrl: https://raw.githubusercontent.com/cgsamp/tap-accelerator/main/img/f150lightning.png
   tags:
     - Java
     - Spring
