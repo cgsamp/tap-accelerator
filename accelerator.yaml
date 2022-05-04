@@ -3,9 +3,10 @@ accelerator:
   description: Create and deploy in-vehicle infotainment for the F150 Lightning
   iconUrl: https://raw.githubusercontent.com/cgsamp/tap-accelerator/main/img/f150l.png
   tags:
-    - Java
-    - Spring
-    - Web
+    - Android Automotive OS
+    - Spring API
+    - In-vehicle
+    - Infotainment
     - JPA
   options:
     - name: databaseType
