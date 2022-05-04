@@ -9,6 +9,7 @@ accelerator:
     - JPA
   options:
     - name: databaseType
+      label: Database Type
       inputType: select
       dataType: string
       display: true
